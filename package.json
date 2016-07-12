@@ -18,7 +18,10 @@
   },
   "license": "MIT",
   "homepage": "http://dalelotts.github.io/angular-bootstrap-datetimepicker",
-  "main": "src/js/datetimepicker.js",
+  "main": [
+    "src/js/datetimepicker.js",
+    "src/js/datetimepicker.templates.js"
+  ],
   "dependencies": {
     "angular": "^1.4.9",
     "moment": "^2.11.1"
